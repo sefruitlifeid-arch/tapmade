@@ -233,12 +233,12 @@ figcaption { margin-top: 12px; font-size: 15px; color: var(--ink-2); }
 .pod .wide { aspect-ratio: 16 / 9; border-radius: 16px; background: url("assets/photos/podcast.jpg") center / cover; }
 .box { position: absolute; top: 8%; bottom: 0; width: 26%; border: 2px solid var(--lime); border-radius: 8px; }
 .box.a { left: var(--ax, 14%); }
-.box.b { left: var(--bx, 58%); }
+.box.b { left: var(--bx, 61%); }
 .pod small { position: absolute; left: 12px; bottom: 10px; z-index: 2; font-size: 13px; color: var(--ink); background: rgba(0,0,0,.55); padding: 2px 8px; border-radius: 999px; }
 .pod .arrow { font-size: 40px; color: var(--lime); }
 .cuts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.sp { background: url("assets/photos/podcast.jpg") 26% 25% / auto 150%; }
-.sp.b { background-position: 72% 25%; }
+.sp { background: url("assets/photos/podcast.jpg") 25% 30% / auto 150%; }
+.sp.b { background-position: 76% 25%; }
 
 @media (max-width: 860px) {
   .ways { grid-template-columns: 1fr; }
