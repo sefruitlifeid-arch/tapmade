@@ -105,7 +105,7 @@ img { display: block; max-width: 100%; }
 .screen {
   position: relative; height: 100%; overflow: hidden;
   border-radius: 39px;
-  background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.35)), url("assets/photos/cap-1.jpg") center / cover;
+  background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.35)), url("assets/photos/cap-1.jpg") center bottom / 100% auto no-repeat, #141416;
   display: flex; flex-direction: column;
 }
 .screen .island { width: 32%; height: 24px; margin: 10px auto 0; border-radius: 20px; background: #000; }
@@ -116,7 +116,7 @@ img { display: block; max-width: 100%; }
   margin: 14px 12px 0; padding: 12px 14px;
   border-radius: 18px; background: rgba(10, 10, 12, .78); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
   font-size: 15px; line-height: 1.38; font-weight: 500; letter-spacing: -.01em;
-  height: 27%; overflow: hidden;
+  height: 21%; overflow: hidden;
 }
 .prompter .w { color: rgba(243, 239, 230, .38); transition: color .25s var(--ease); }
 .prompter .w.said { color: var(--ink); }
@@ -232,13 +232,13 @@ figcaption { margin-top: 12px; font-size: 15px; color: var(--ink-2); }
 .pod { margin: 56px 0 0; display: grid; grid-template-columns: 1.7fr auto 1fr; gap: 20px; align-items: center; }
 .pod .wide { aspect-ratio: 16 / 9; border-radius: 16px; background: url("assets/photos/podcast.jpg") center / cover; }
 .box { position: absolute; top: 8%; bottom: 0; width: 26%; border: 2px solid var(--lime); border-radius: 8px; }
-.box.a { left: var(--ax, 14%); }
-.box.b { left: var(--bx, 57%); }
+.box.a { left: var(--ax, 12%); }
+.box.b { left: var(--bx, 60%); }
 .pod small { position: absolute; left: 12px; bottom: 10px; z-index: 2; font-size: 13px; color: var(--ink); background: rgba(0,0,0,.55); padding: 2px 8px; border-radius: 999px; }
 .pod .arrow { font-size: 40px; color: var(--lime); }
 .cuts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.sp { background: url("assets/photos/podcast.jpg") 21% 30% / auto 150%; }
-.sp.b { background-position: 75% 30%; }
+.sp { background: url("assets/photos/podcast.jpg") 25% 25% / auto 150%; }
+.sp.b { background-position: 76% 25%; }
 
 @media (max-width: 860px) {
   .ways { grid-template-columns: 1fr; }
